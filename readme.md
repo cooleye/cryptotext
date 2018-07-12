@@ -20,4 +20,5 @@
 
 ### 客户端
 * web版访问：https://davie.gitee.io/cryptotext/
+* 把项目克隆到本地，在浏览器打开index.html
 * chrome 扩展版本，下载crypto-text.crx,安装到chrome上
