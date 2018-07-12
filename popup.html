@@ -1,0 +1,104 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="lib/bootstrap.min.css">
+<script src="lib/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="lib/tab/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="lib/tab/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="lib/tab/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="lib/tab/css/tabstyles.css" />
+<link rel="stylesheet" href="css/suo/iconfont.css">
+<link rel="stylesheet" href="css/app.css">
+
+<script src="lib/tab/js/modernizr.custom.js"></script>
+          
+
+<div class="cover" charset="UTF-8">
+        
+    <!-- <h1 class="title">文本加密机</h1> -->
+
+    <section>
+            <div class="tabs tabs-style-bar">
+                <nav>
+                    <ul>
+                        <li><a href="#section-bar-1" class="tabicon iconfont icon-jiemi1"><span> 加密</span></a></li>
+                        <li><a href="#section-bar-2" class="tabicon iconfont icon-jiemi2"><span> 解密</span></a></li>
+                    </ul>
+                </nav>
+                <div class="content-wrap">
+                    <section id="section-bar-1">
+
+                        <div class="form-group">
+                            <label for="msg">输入原文</label>
+                            <textarea class="form-control" id="msg" rows="3" placeholder="在此输入你要加密的文本"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">加密密码</label>
+                            <input type="password" class="form-control" id="password" placeholder="给这段文字加个密码把">
+                        </div>
+                            
+                        <button type="button" id="encBtn" class="btn btn-success btn-block">加密</button>
+                        
+                        <div class="line"></div>
+
+                        <div class="form-group">
+                            <label for="password">加密结果</label>
+                            <div class="result-text">
+                                <h6 id="ciphertext"></h6>
+                            </div>
+                           
+                        </div>
+                        
+                        <button type="button" id="download1" class="btn btn-success btn-block">下载</button>
+                        
+                    </section>
+
+                    <section id="section-bar-2">
+
+                        <div class="form-group">
+                            <label for="msg">输入密文</label>
+                            <textarea class="form-control" id="msg2" rows="3" placeholder="在此输入你要解密的文本"></textarea>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="password2">解密密码</label>
+                            <input type="password" class="form-control" id="password2" placeholder="输入加密时的密码以解密">
+                        </div>
+                                
+                        <button type="button" id="decBtn" class="btn btn-success btn-block">解密</button>
+
+                        <div class="line"></div>
+
+                        <div class="form-group">
+                            <label for="password">加密结果</label>
+                            <div class="result-text">
+                                <h6 id="origintext"></h6>
+                            </div>
+                            
+                        </div>
+                            
+                        <button type="button" id="download2" class="btn btn-success btn-block">下载</button>
+                    </section> 
+                </div><!-- /content -->
+            </div><!-- /tabs -->
+        </section>
+
+        <footer>
+                
+                <h6>Created By Davie Kong</h6>
+                <a href="https://github.com/cooleye" target="_blank" class="github">
+                    <img src="img/GitHub.png" alt="">
+                </a>
+                
+                <a href="https://www.jianshu.com/u/87318e757271" target="_blank" class="jianshu">
+                    <img src="img/简书.png" alt="">
+                </a>
+      
+        </footer>
+    
+
+
+</div>
+<script src="lib/tab/js/cbpFWTabs.js"></script>
+<script src="js/bundle.js"></script>
+<script src="js/app.js"></script>

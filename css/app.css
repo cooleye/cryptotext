@@ -1,0 +1,104 @@
+.cover{
+    width: 400px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title{
+    margin-top: 50px;
+}
+
+section{
+    width: 100%;
+    background: #fff;
+}
+textarea{
+    max-height: 80px;
+}
+.result-text{
+    display: block;
+    width: 100%;
+    height: 80px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: solid 1px #ced4da;
+    border-radius: 5px;
+}
+
+.result-text>h6{
+    font-size: 14px;
+    color: #333;
+    word-break: break-all;
+    text-align: left;
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    border-top: dashed 1px #ced4da;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+}
+.form-group>label{
+    font-size: 16px;
+    font-weight: 200;
+    color: #666;
+}
+
+footer{
+    width: 100%;
+}
+footer h6{
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: #999;
+}
+
+footer a{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+footer .github{
+    left: 175px;
+}
+footer .jianshu{
+    left: 205px;
+}
+footer a img{
+    width: 100%;
+}
+
+
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    font-weight: 200;
+    color: #eee;
+    font-size: 12px;
+    text-align: left;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #eee;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #eee;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #eee;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #eee;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+.tabicon{
+    /* font-size: 20px; */
+}
