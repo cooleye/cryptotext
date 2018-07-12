@@ -17,3 +17,7 @@
 * 输入加密后的密文
 * 输入加密时使用的密码
 * 点击解密，就可以得到原文。
+
+### 客户端
+* web版访问：https://davie.gitee.io/cryptotext/
+* chrome 扩展版本，下载 crypto-text.crx,安装到chrome上
