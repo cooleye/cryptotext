@@ -20,4 +20,4 @@
 
 ### 客户端
 * web版访问：https://davie.gitee.io/cryptotext/
-* chrome 扩展版本，下载 crypto-text.crx,安装到chrome上
+* chrome 扩展版本，下载crypto-text.crx,安装到chrome上
