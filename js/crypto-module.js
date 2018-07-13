@@ -27,3 +27,5 @@ const getDecAse192 = function(str, secret) {
 
 exports.getEncAse192 = getEncAse192;
 exports.getDecAse192 = getDecAse192;
+
+// window.tools = exports;

@@ -14,12 +14,15 @@ var crypto_str;
 $("#encBtn").click(function(){
 
     var str = $("#msg").val();
-    var password = $("#password");
+    var password = $("#password").val();
 
-    crypto_str = tools.getEncAse192(str,password);
-    console.log("加密后的字符串：",crypto_str);
-    $("#ciphertext").text(crypto_str)
-
+    if(str && password){
+        crypto_str = tools.getEncAse192(str,password);
+        // console.log("加密后的字符串：",crypto_str);
+        $("#ciphertext").text(crypto_str)
+    }else{
+        alert("内容或密码为空")
+    }
 })
 
 
@@ -30,13 +33,21 @@ $("#encBtn").click(function(){
 var encode_str;
 $("#decBtn").click(function(){
 
-    var str = $("#msg2").val();
-    var password = $("#password2");
+    var str2 = $("#msg2").val();
+    var password2 = $("#password2").val();
 
-    encode_str = tools.getDecAse192(str,password);
-    console.log('解密后的字符串：',encode_str);
-
-    $("#origintext").text(encode_str)
+    if(str2 && password2){
+        encode_str = tools.getDecAse192(str2,password2);
+        // console.log('解密后的字符串：',encode_str);
+        if(encode_str){
+            $("#origintext").text(encode_str)
+        }else{
+            alert("密码不正确")
+        }
+        
+    }else{
+        alert("内容或密码为空")
+    }
 
 })
 
